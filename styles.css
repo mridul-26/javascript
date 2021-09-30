@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+.container{
+    color: blanchedalmond;
+    background-color: transparent;
+    border: 8px white solid;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container .time_values{
+    border: 0px red solid;
+    font-size: 8vh;
+    margin-bottom: 20%;
+}
+
+.container .buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border: 0px red solid;
+    height: 15%;    
+}
+
+.container .buttons>button{
+    font-size: 4vh;
+    height: 100%;
+    border: 2px white solid;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    width: 30%;
+}
